@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario de Jesus Gabriel Vivas Gomez</h1>
+
+    <form action="#" method="POST">
+        <label for="fname">Primer Nombre: </label>
+        <input size="36" type="fname" id="fname" placeholder="Ingrese su primer nombre..."><br>
+        <label for="lname">Segundo Nombre: </label>
+        <input size="34" type="lname" id="lname" placeholder="Ingrese su segundo nombre..."><br>
+        <label for="address">Direccion: </label>
+        <input size="41" type="text" name="address" placeholder="Ingrese su Direccion..."><br>
+        <label for="number">Numero: </label>
+        <input size="41" type="number" name="number" placeholder="Ingrese un numero..."><br>
+        <label for="city">Ciudad: </label>
+        <input size="43" type="city" name="city" placeholder="Ingrese una ciudad..."><br>
+        <label for="cod-postal">Codigo Postal: </label>
+        <input size="37" type="text" name="cod-postal" placeholder="Ingrese su codigo postal..."><br>
+        <label for="telefono">Telefono: </label>
+        <input size="42" type="tel" name="telefono" placeholder="Ingrese su telefono..."><br>
+        <label for="cumple">Fecha Nac.(m/d/y): </label>
+        <input type="date" name="cumple"><br>
+        <label for="password">Clave: </label>
+        <input size="45" type="password" name="password" placeholder="Ingrese su password..."><br>
+        <label for="mail">Correo: </label>
+        <input size="44" type="email" name="mail" placeholder="Ingrese su correo..."><br>
+        <label for="url">Link del TP3: </label>
+        <input size="38" type="url" name="url" placeholder="Ingrese su TP-3..."><br><br>
+        <p>Tu genero:
+            <input type="radio" name="gender" value="hombre" checked="">Hombre
+            <input type="radio" name="gender" value="Mujer">Mujer
+            <input type="radio" name="gender" value="Otro"> Otro
+        </p>
+        <p> Marque las 3 marias del FRONTEND: 
+            <input type="checkbox" name="frontend" value="HTML"> HTML
+            <input type="checkbox" name="frontend" value="CSS"> CSS
+            <input type="checkbox" name="frontend" value="JAVASCRIPT"> JAVASCRIPT
+        </p>
+        <label for="comentarios">Comentario: </label>
+        <textarea name="comentarios" rows="10" cols="40"></textarea><br>
+        <input type="submit" value="Enviar">
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
